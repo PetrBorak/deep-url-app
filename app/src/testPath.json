@@ -1,0 +1,8 @@
+{
+  "url": {
+    "stateKey": "url.stateForTheUrl",
+    "type": "number",
+    "initialState": -1,
+    "options": {"shouldPush": true}
+  }
+}
