@@ -1,6 +1,5 @@
 import { createBrowserHistory } from 'history';
-import { combineReducers } from "redux";
-import { createStore, applyMiddleware, compose } from 'redux';
+import { createStore, applyMiddleware, compose, combineReducers } from 'redux';
 import {createReduxLocationActions, listenForHistoryChange } from 'react-redux-url-state';
 import { paramSetup, mapLocationToState } from './init.deep.url';
 import { reducer } from './store'
